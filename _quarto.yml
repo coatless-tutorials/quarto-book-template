@@ -19,7 +19,7 @@ book:
       chapters: 
         - hello-world.qmd
   appendices:
-    - additional-notes.qmd
+    - appendix-notes.qmd
     
 format:
   html: 
