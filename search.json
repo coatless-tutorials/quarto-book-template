@@ -9,8 +9,22 @@
   {
     "objectID": "my-first-book.html",
     "href": "my-first-book.html",
-    "title": "1  Part 1: Write the book",
+    "title": "Part 1: Write the book",
     "section": "",
     "text": "Sample additional page"
+  },
+  {
+    "objectID": "hello-world.html",
+    "href": "hello-world.html",
+    "title": "1  The Hello World Example",
+    "section": "",
+    "text": "Hello Quarto World!"
+  },
+  {
+    "objectID": "appendix-notes.html",
+    "href": "appendix-notes.html",
+    "title": "Appendix A — Additional Notes",
+    "section": "",
+    "text": "Sample appendix"
   }
 ]

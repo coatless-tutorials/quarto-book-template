@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/index.html</loc>
-    <lastmod>2022-02-03T23:00:47.588Z</lastmod>
+    <lastmod>2022-02-03T23:08:08.478Z</lastmod>
   </url>
   <url>
     <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/my-first-book.html</loc>
-    <lastmod>2022-02-03T23:00:47.588Z</lastmod>
+    <lastmod>2022-02-03T23:08:08.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/hello-world.html</loc>
+    <lastmod>2022-02-03T23:08:08.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/appendix-notes.html</loc>
+    <lastmod>2022-02-03T23:08:08.482Z</lastmod>
   </url>
 </urlset>
