@@ -16,10 +16,10 @@ book:
   chapters:
     - index.qmd
     - part: my-first-book.qmd
-  #    chapters: 
-  #      - hello-world.qmd
-  #appendices:
-  #  - additional-notes.qmd
+      chapters: 
+        - hello-world.qmd
+  appendices:
+    - additional-notes.qmd
     
 format:
   html: 
