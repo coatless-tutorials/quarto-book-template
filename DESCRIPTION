@@ -1,0 +1,8 @@
+Package: mybook
+Title: Name of Course Textbook
+Version: 0.1.0
+Authors@R: c(person("James Joseph", "Balamuta", "balamut2@illinois.edu", c("aut", "cre", "cph")))
+Depends: R (>= 4.0)
+URL: https://github.com/coatless-tutorials/quarto-book-template
+Imports:
+  visualize
