@@ -15,8 +15,7 @@ book:
   sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-    - README.md
-  #  - part: my-first-book.qmd
+    - part: my-first-book.qmd
   #    chapters: 
   #      - hello-world.qmd
   #appendices:
