@@ -1,0 +1,1 @@
+Sitemap: https://tutorials.thecoatlessprofessor.com/quarto-book-template/sitemap.xml
