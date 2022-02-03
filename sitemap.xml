@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/index.html</loc>
-    <lastmod>2022-02-03T22:50:38.023Z</lastmod>
+    <lastmod>2022-02-03T22:55:58.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/my-first-book.html</loc>
+    <lastmod>2022-02-03T22:55:58.742Z</lastmod>
   </url>
 </urlset>

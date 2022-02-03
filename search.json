@@ -5,5 +5,12 @@
     "title": "Title of Next Bestseller",
     "section": "Welcome",
     "text": "Welcome\nWelcome splash page! Provide an overview."
+  },
+  {
+    "objectID": "my-first-book.html",
+    "href": "my-first-book.html",
+    "title": "1  Part 1: Write the book",
+    "section": "",
+    "text": "Sample additional page"
   }
 ]
