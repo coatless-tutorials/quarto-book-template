@@ -4,7 +4,7 @@
     "href": "index.html#welcome",
     "title": "Title of Next Bestseller",
     "section": "Welcome",
-    "text": "Welcome\nWelcome splash page! Provide an overview."
+    "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:\n\n\n\nR\nmy_list = list(1, 2, 3)\ntypeof(my_list)\n\n\nPython\nmy_list = [1, 2, 3]\ntype(my_list)"
   },
   {
     "objectID": "my-first-book.html",
