@@ -13,8 +13,17 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      # Download a copy of the repo
-      - uses: actions/checkout@v2
+      # Obtain a copy of the repository on the runner
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # Install Quarto
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
+
       # Setup pandoc (might be included with Quarto action?) 
       - uses: r-lib/actions/setup-pandoc@v2
       # Setup R
@@ -27,23 +36,26 @@ jobs:
       #    extra-packages: any::ggplot2, local::.
       
       # Download latest version of Python
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          cache: 'pip'
+      
+      # Install jupyter via pip if it is not part of your requirements.txt
+      # - name: "Install Jupyter Notebooks via Pip"
+      #  run: |
+      #     pip install jupyter 
       
       # Install python dependencies from requirements via pip
-      #- name: "Install Python dependencies via Pip"
-      #  run: |
-      #    pip install -r requirements.txt
+      - name: "Install Python dependencies via Pip"
+        run: | 
+           pip install -r requirements.txt
 
-
-      # Grab a copy of quarto and render the document in all formats
-      - uses: quarto-dev/quarto-actions/install-quarto@v1
-      - run: |
-          quarto render --to all
-
-      # Deploy the rendered _book directory onto Pages
-      - name: Deploy to GitHub pages 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      # Render the Quarto book using GitHub actions and publish
+      # We are using the built-in {{GITHUB_PAT}} environment variable.
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          branch: gh-pages
-          folder: _book
+          target: gh-pages
+          path: _book
+
