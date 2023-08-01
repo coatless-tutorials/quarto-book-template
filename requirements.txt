@@ -1,0 +1,11 @@
+ipython>=8.14.0
+jupyter
+jupyterlab
+matplotlib
+numpy>=1.25.0
+pandas>=2.0.0
+seaborn>=0.12.0
+watermark>=2.4.3
+tqdm
+scikit-learn
+scipy
