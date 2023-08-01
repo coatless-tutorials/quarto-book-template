@@ -1,3 +1,5 @@
+
+
 ## Welcome {.unnumbered}
 
 Welcome splash page! Provide an overview of the book.
@@ -7,14 +9,14 @@ Sample evaluation of R and Python in a side-by-side manner:
 ::: {layout-ncol=2}
 #### R
 
-```r
+```{r}
 my_list = list(1, 2, 3)
 typeof(my_list)
 ```
 
 #### Python
 
-```python
+```{python}
 my_list = [1, 2, 3]
 type(my_list)
 ```
